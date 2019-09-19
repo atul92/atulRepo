@@ -32,5 +32,11 @@ namespace BakeryAPI.Controllers
             return "LoggedIn!!!!!";
         }
 
+        [HttpPost]
+        public ActionResult<string> Post2()
+        {
+            return "LoggedIn!!!!!";
+        }
+
     }
 }
